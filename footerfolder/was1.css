@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.sc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: gainsboro;
+    max-height:40%;
+  }
+  
+  .footer__col {
+    width: 30%;
+    margin-bottom: 20px;
+    height: 50%;
+  }
+  
+  .footer__heading {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  /* Styles for the footer bar */
+  
+  .footer__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color:gainsboro;
+  }
+  
+  .copyright {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-left: 50px;
+   word-spacing: 5px;
+  }
+  .p{
+    width: 100%;
+    text-align: center; 
+    padding-top: 25px;
+  }
+  img{
+    padding-inline: 15px;
+  }
+  
+  
+  
+  
+  
+  
+
+
+
