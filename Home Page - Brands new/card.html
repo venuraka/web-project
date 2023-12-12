@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="center">
+
+   
+  <div class="card k1" >
+    <img src="C:\Users\USER\Desktop\Home Page - Brands\Image\PRADA.png" alt="C:\Users\USER\Desktop\Home Page - Brands\Image\PRADA.png" >
+    <a href="#"><button class="like-button">PRADA</button></a>
+  </div>
+ 
+  <div class="card k2">
+    <img src="C:\Users\USER\Desktop\Home Page - Brands\Image\CHANEL.png" alt="C:\Users\USER\Desktop\Home Page - Brands\Image\CHANEL.png">
+    <a href="#"><button class="like-button">CHANEL</button></a>
+  </div><br>
+  <div class="card k2">
+    <img src="C:\Users\USER\Desktop\Home Page - Brands\Image\HERMES.png" alt="C:\Users\USER\Desktop\Home Page - Brands\Image\HERMES.png">
+    <a href="#"> <button class="like-button">HERMES</button></a>
+  </div>
+  <div class="card k1">
+    <img src="C:\Users\USER\Desktop\Home Page - Brands\Image\GUCCI.png" alt="C:\Users\USER\Desktop\Home Page - Brands\Image\GUCCI.png">
+    <a href="#"> <button class="like-button">GUCCI</button></a>
+  </div>
+
+  <script>
+    const likeButtons = document.querySelectorAll('.like-button');
+    likeButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        button.classList.toggle('liked');
+      });
+    });
+    
+  </script>
+  </div>
+</body>
+</html>

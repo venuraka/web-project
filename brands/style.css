@@ -1,0 +1,44 @@
+ <style>
+    .container {
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: lightblue;
+    }
+
+    .card {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .card-img-top {
+      height: 100%;
+    }
+
+    .card-body {
+      padding: 10px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .card-text {
+      font-size: 14px;
+    }
+
+    .card-button {
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      padding: 10px;
+    }
+  </style>
