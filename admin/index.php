@@ -1,5 +1,12 @@
-<?php include('adminpannel/header.php'); ?>
-<div class="row">
+<?php 
+include('adminpannel/header.php');
+include('../middleware/adminmiddleware.php');
+ ?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>HI Admin</h1>
+            <div class="row">
   <div class="col-lg-7 position-relative z-index-2">
     <div class="card card-plain mb-4">
       <div class="card-body p-3">
@@ -85,5 +92,7 @@
     <p class="mb-0 ">Just updated</p>
   </div>
 </div>
+        </div>
+    </div> 
 
 <?php include('adminpannel/footer.php'); ?>
